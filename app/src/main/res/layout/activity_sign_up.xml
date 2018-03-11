@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.klynox.brandy.SignInActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layout_email_password"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/layout_email_password"
+        android:layout_marginBottom="210dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="@font/nunito_extralight"
+        android:text="Register"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_email_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/field_email"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:hint="@string/hint_email"
+            android:inputType="textAutoCorrect"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/field_password"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_email_password"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <!--<Button-->
+            <!--android:id="@+id/button_sign_in"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/sign_in" />-->
+
+        <Button
+            android:id="@+id/button_sign_up"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_email_password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/state"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/submit"
+        android:layout_alignBottom="@+id/submit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="8"
+        android:hint="@string/hint_fname"
+        android:inputType="textAutoComplete" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="false"
+        android:layout_toEndOf="@+id/layout_buttons"
+        android:layout_toRightOf="@+id/layout_buttons"
+        android:text="Submit" />
+
+</RelativeLayout>

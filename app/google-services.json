@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980179535272",
+    "firebase_url": "https://brandy-f4e66.firebaseio.com",
+    "project_id": "brandy-f4e66",
+    "storage_bucket": "brandy-f4e66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980179535272:android:ff71708290b1ad3b",
+        "android_client_info": {
+          "package_name": "com.klynox.brandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980179535272-9dpsam0h91k2pe7g8h2var5427n4hdau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.klynox.brandy",
+            "certificate_hash": "0c409e52a321e63e5184cc260fc82da88184dfb9"
+          }
+        },
+        {
+          "client_id": "980179535272-t35reoqd7hc520p4bfgbs1p25tgom1pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4J_RhP5iC6gEyA1o9Keqyob_xyedUylM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980179535272-t35reoqd7hc520p4bfgbs1p25tgom1pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
